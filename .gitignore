@@ -1,0 +1,26 @@
+# Build outputs
+bin/
+obj/
+
+# VS/IDE files
+.vs/
+.idea/
+*.user
+*.suo
+*.userprefs
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Rider
+.idea/
+
+# NuGet
+*.nupkg
+.nuget/
+
+# Selenium manager runtime files
+runtimes/**/native/
