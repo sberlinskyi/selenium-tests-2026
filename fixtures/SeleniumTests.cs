@@ -15,7 +15,7 @@ public class SeleniumTests : BaseFixture
     private ExamplePage? examplePage;
 
     [Test]
-    public void Test1()
+    public void VerifyPageTitleTest()
     {
         Driver.Navigate().GoToUrl("https://example.com");
         examplePage = new ExamplePage(Driver);
